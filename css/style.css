@@ -181,7 +181,11 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 40px;
 }
 
-
+/* ------------------------footer-container------------------------------- */
+.footer-left-container
+{
+  min-width: 100%;
+}
 
 }
 
@@ -579,8 +583,12 @@ color: #dab41c;
 .footer-left-container
 {
     max-width: 27%;
+  
 }
-
+.footer-right-container
+{
+    display: flex;
+}
 .footer-container .bold-footer-text
 {
     color: #fff;
